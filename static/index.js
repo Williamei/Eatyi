@@ -344,7 +344,7 @@ function shareText(score) {
     if (score <= 49) return '试着好好练一下？';
     if (score <= 99) return '一顿很多个翊宝';
     if (score <= 149) return '水到渠成！';
-    if (score <= 199) return '您';
+    if (score <= 199) return '一往无前！';
     return '人？';
 }
 
