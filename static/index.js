@@ -341,7 +341,7 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 49) return '试着好好练一下？';
+    if (score <= 49) return '你不值得翊宝';
     if (score <= 99) return '一顿很多个翊宝';
     if (score <= 149) return '水到渠成！';
     if (score <= 199) return '一往无前！';
